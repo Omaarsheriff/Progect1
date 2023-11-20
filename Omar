@@ -1,0 +1,5 @@
+Age = int(input("please type your age \n "))
+license = input("do you have a license (yes) or (no) ")
+if Age>=18 and license.lower() =="yes":    print("you can drive") 
+else: 
+ print("you can't drive")
